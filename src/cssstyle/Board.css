@@ -1,0 +1,69 @@
+.options {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.options select {
+  width: 180px;
+  padding: 5px;
+}
+
+.options button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.options button:hover {
+  background-color: #0056b3;
+}
+
+
+
+@media (min-width: 820px) {
+  .kanban-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding: 1px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+  }
+  
+  .options {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .options select {
+    width: 180px;
+    padding: 5px;
+  }
+  
+  .options button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .options button:hover {
+    background-color: #0056b3;
+  }
+  
+  .board-columns {
+    display: flex;
+    gap: 0.02vh;
+  }
+  
+  
+}
+
